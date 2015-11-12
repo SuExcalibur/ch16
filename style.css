@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #333333;
+	font-family: sans-serif;
+	color: white;
+	width: 100%;
+	font-size: 18px;
+}
+header{
+	width: 100%;
+	background-color: rgba(255,5,5,.3);
+	position: fixed;
+	top: 0;
+	box-shadow: 3px 0 10px red;
+}
+h1{
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(222,222,222, .2);
+	margin: 15px;
+	border-radius: 5px;
+}
+#content-wraper{
+	width: 90%;
+	background-color: #222222;
+	margin: auto;
+	box-shadow: 5px 0 20px red;
+	border-radius: 10px;
+	margin-top: 100px;
+}
+hr{
+	border: 0;
+	height: 5px;
+	background-color: rgba(255,5,5,.7);
+}
+#menu{
+	background-color: rgba(255,0,0,.6);
+}
+#menu ul{
+	text-align: center;
+	list-style-type: none;
+}
+#menu ul li{
+	display: inline-block;
+	padding: 20px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+#menu ul li a:hover{
+	color: black;
+	background-color: grey;
+	padding: 5px;
+}
+#top-content{
+	background-image: url(fy.jpg);
+	background-size: 100%;
+	background-position: 10px 0px;
+	min-height: 500px;
+}
+pre{
+	width: 100%;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 50px 0px;
+	margin: auto;
+	margin-top: 75px;
+	background-color: rgba(000,000,000,.5);
+}
+.story{
+	border: 1px solid red;
+	text-indent: 25px;
+}
+h3{
+	text-transform: uppercase;
+	background-color: rgba(222,222,222, .2);
+}
+.story p:first-letter{
+	font-size: 2em;
+	color: red;
+}
+#video {
+	padding: 10px;
+}
+#audio{
+	padding: 10px;
+	min-height: 200px;
+}
+#audio p{
+	float: right;
+	width: 240px;
+	text-indent: 15px;
+}
+#audio p:hover{
+	transform: translate(-200px, 0px);
+	transition: transform 1s ease-in;
+}
+footer{
+	width: 100%;
+	background-color: rgba(255,5,5,.4);
+	box-sizing:border-box;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-color: red;
+}
